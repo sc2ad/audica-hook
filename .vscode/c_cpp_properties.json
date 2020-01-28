@@ -4,7 +4,8 @@
             "name": "ARM8",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/android-ndk-r20b/**"
+                "C:/android-ndk-r20b/**",
+                "C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp"
             ],
             "defines": [
                 "_DEBUG",

@@ -21,9 +21,9 @@ include $(CLEAR_VARS)
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
 LOCAL_LDLIBS    := -llog
-LOCAL_CFLAGS    := -DMOD_ID='"HashMod"' -DVERSION='"1.0.0"'
+LOCAL_CFLAGS    := -D"MOD_ID=\"HashMod\"" -D"VERSION=\"1.0.0\""
 LOCAL_MODULE    := hashmod
-LOCAL_CPPFLAGS  := -std=c++2a -fno-rtti -Os
+LOCAL_CPPFLAGS  := -std=c++2a -fno-rtti -Os -I"C:\Program Files\Unity\Editor\Data\il2cpp\libil2cpp"
 
 LOCAL_C_INCLUDES := ../shared/
 LOCAL_SRC_FILES  := $(call rwildcard,../shared/,*.cpp) $(call rwildcard,../shared/,*.c) $(call rwildcard,src/,*.cpp)
