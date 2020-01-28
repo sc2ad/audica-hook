@@ -1,6 +1,6 @@
-# pistol-whip-hook
+# audica-hook
 
-This is Sc2ad's fork of jakibaki's modloader, which contains many new functions that the original library does not yet have. However, the code style/true validity (as in, "can it run?") of this repo are significantly more in question than the main library.
+This is a significantly stripped down version of the [beatsaber-hook](https://github.com/sc2ad/beatsaber-hook) library for Audica on the Quest.
 
 ## Acknowledgements
 
