@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "ARM8",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/android-ndk-r20b/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__aarch64__"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/android-ndk-r20b/prebuilt/windows-x86_64/bin/ndk-gdb.cmd",
+            "cStandard": "c11",
+            "intelliSenseMode": "clang-x64",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
