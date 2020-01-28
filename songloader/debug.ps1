@@ -1,4 +1,4 @@
-& adb shell am set-debug-app -w --persistent com.cloudheadgames.pistolwhip 
+& adb shell am set-debug-app -w --persistent com.harmonixmusic.kata
 
 $NDKPath = Get-Content $PSScriptRoot/ndkpath.txt
 

@@ -1,0 +1,1 @@
+& adb shell am clear-debug-app com.harmonixmusic.kata

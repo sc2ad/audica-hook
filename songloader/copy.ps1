@@ -6,4 +6,4 @@ if (-not ($PSVersionTable.PSEdition -eq "Core")) {
 }
 
 & $buildScript NDK_PROJECT_PATH=$PSScriptRoot APP_BUILD_SCRIPT=$PSScriptRoot/Android.mk NDK_APPLICATION_MK=$PSScriptRoot/Application.mk
-& adb push libs/arm64-v8a/libhashmod.so /sdcard/Android/data/com.cloudheadgames.pistolwhip/files/mods/libhashmod.so
+& adb push libs/arm64-v8a/libsongloader.so /sdcard/Android/data/com.harmonixmusic.kata/files/mods/libsongloader.so

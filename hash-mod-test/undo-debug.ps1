@@ -1,1 +1,0 @@
-& adb shell am clear-debug-app com.cloudheadgames.pistolwhip
